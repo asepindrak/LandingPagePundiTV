@@ -1,6 +1,6 @@
 export default function Footer() {
     return (
-        <div className="py-10 bg-gradient-to-b from-dark-blue to-black lg:mt-16" id="contact">
+        <div className="py-10 bg-gradient-to-b from-dark-blue to-black" id="contact">
             <div className="justify-center gap-3 px-10 space-x-0 md:flex md:space-x-10 lg:space-x-0">
                 <div className="text-center text-white md:1/2 lg:w-2/5">
                     <p className="mb-3 text-xl text-center font-acme">Colabarate</p>
