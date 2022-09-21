@@ -1,5 +1,5 @@
 import type { NextPage } from 'next'
-import Head from 'next/head'
+
 import Script from 'next/script'
 
 import AboutUs from './components/about_us'
@@ -9,6 +9,8 @@ import OurTeam from './components/our_team';
 import GetApp from './components/get_app';
 import Footer from './components/footer';
 import Feature from './components/feature';
+import Head from 'next/head';
+
 
 const Home: NextPage = () => {
   return (

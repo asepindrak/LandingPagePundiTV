@@ -1,17 +1,27 @@
+
+import Image from "next/image";
 export default function Welcome() {
     return (
         <div className='bg-gradient-to-bl from-yellow via-dark-blue to-black' id="home">
             <div className='flex items-center justify-around w-full h-screen space-x-12 text-white'>
                 <div className="hidden lg:block">
-                    <img src="/images/hero.png" alt="App Pundi TV" className='mx-auto mt-5 w-72' />
+                    {/* <img src="/images/hero.png" alt="App Pundi TV" className='mx-auto mt-5 w-72' /> */}
+                    <div className="relative h-screen w-72">
+                        <Image src="/images/hero.png" alt="App Pundi TV" className='w-56 mx-auto' layout="fill" objectFit="contain" />
+                    </div>
                 </div>
                 <div className='text-center'>
                     <p className='text-3xl text-center text-white md:text-6xl font-acme text-shadow'>Welcome to Pundi TV </p>
                     <p className='md:text-xl font-satisfy text-shadow'>Watch youtube earn money, only on Pundi TV</p>
                     <img src="/images/app_pundi.png" alt="App Pundi TV" className='w-32 mx-auto mt-5 md:hidden' />
                 </div>
+                {/* <div className="hidden md:block">
+                    <img src="/images/app_pundi.png" alt="App Pundi TV" className='w-56 mx-auto' layout="fill" objectFit="contain" />
+                </div> */}
                 <div className="hidden md:block">
-                    <img src="/images/app_pundi.png" alt="App Pundi TV" className='w-56 mx-auto' />
+                    <div className="relative w-56 h-screen">
+                        <Image src="/images/app_pundi.png" alt="App Pundi TV" className='w-56 mx-auto' layout="fill" objectFit="contain" />
+                    </div>
                 </div>
             </div>
             <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 300" className='w-full'>
