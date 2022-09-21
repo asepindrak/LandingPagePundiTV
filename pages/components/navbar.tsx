@@ -3,7 +3,7 @@ import Feature from './feature';
 
 export default function Navbar() {
     return (
-        <nav className="fixed flex flex-wrap items-center justify-between w-full py-2 bg-black md:px-10">
+        <nav className="fixed flex flex-wrap items-center justify-between w-full py-2 bg-black bg-opacity-75 md:bg-opacity-50 md:px-10">
             <div className="flex items-center justify-between w-full px-6 text-white container-fluid font-acme h-11">
                 <a href="" className='font-acme'>
                     <Image src="/images/Logo Pundi.png" alt="Logo Pundi" width={50} height={50} />

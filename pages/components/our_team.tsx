@@ -1,18 +1,15 @@
-import Image from "next/image";
-
 export default function OurTeam() {
     return (
         <>
-            <div className="flex items-center md:h-screen bg-dark-blue" id="ourTeam">
+
+            <div className=" lg:h-screen bg-dark-blue flex items-center" id="ourTeam">
                 <div className="w-full">
                     <p className="pt-16 text-3xl text-center text-white font-acme text-shadow">Our Team</p>
                     <div className="grid gap-5 px-10 mt-10 md:grid-cols-3">
                         <div className="group">
                             <div className="max-w-sm px-3 py-5 transition ease-in-out bg-white rounded-lg shadow-lg hover:bg-gradient-to-br from-yellow to-orange group-hover:-translate-y-3 group">
                                 <a href="#!" data-mdb-ripple="true" data-mdb-ripple-color="light">
-                                    <div className="relative w-48 h-48 mx-auto">
-                                        <Image src="/images/icon_punditv.png" alt="App Pundi TV" className='w-56 mx-auto' layout="fill" objectFit="cover" />
-                                    </div>
+                                    <img className="w-40 h-40 mx-auto rounded-full shadow-xl md:w-48 md:h-48" src="https://mdbootstrap.com/img/new/standard/nature/182.jpg" alt="" />
                                 </a>
                                 <div className="mt-5 text-center font-acme ">
                                     <p className="text-xl lg:text-3xl">Edi Mulyadi Rosdiman</p>
@@ -24,9 +21,7 @@ export default function OurTeam() {
                         <div className="group">
                             <div className="max-w-sm px-3 py-5 transition ease-in-out bg-white rounded-lg shadow-lg hover:bg-gradient-to-br from-yellow to-orange group-hover:-translate-y-3">
                                 <a href="#!" data-mdb-ripple="true" data-mdb-ripple-color="light">
-                                    <div className="relative w-48 h-48 mx-auto">
-                                        <Image src="/images/icon_punditv.png" alt="App Pundi TV" className='w-56 mx-auto' layout="fill" objectFit="cover" />
-                                    </div>
+                                    <img className="w-40 h-40 mx-auto rounded-full shadow-xl md:w-48 md:h-48" src="https://mdbootstrap.com/img/new/standard/nature/182.jpg" alt="" />
                                 </a>
                                 <div className="mt-5 text-center font-acme">
                                     <p className="text-xl lg:text-3xl">Edi Mulyadi Rosdiman</p>
@@ -38,10 +33,7 @@ export default function OurTeam() {
                         <div className="group">
                             <div className="max-w-sm px-3 py-5 transition ease-in-out bg-white rounded-lg shadow-lg hover:bg-gradient-to-br from-yellow to-orange group-hover:-translate-y-3">
                                 <a href="#!" data-mdb-ripple="true" data-mdb-ripple-color="light">
-                                    {/* <img className="w-40 h-40 mx-auto rounded-full shadow-xl md:w-48 md:h-48" src="https://mdbootstrap.com/img/new/standard/nature/182.jpg" alt="" /> */}
-                                    <div className="relative w-48 h-48 mx-auto">
-                                        <Image src="/images/icon_punditv.png" alt="App Pundi TV" className='w-56 mx-auto' layout="fill" objectFit="cover" />
-                                    </div>
+                                    <img className="w-40 h-40 mx-auto rounded-full shadow-xl md:w-48 md:h-48" src="https://mdbootstrap.com/img/new/standard/nature/182.jpg" alt="" />
                                 </a>
                                 <div className="mt-5 text-center font-acme">
                                     <p className="text-xl lg:text-3xl">Edi Mulyadi Rosdiman</p>
@@ -52,7 +44,7 @@ export default function OurTeam() {
                     </div>
                 </div>
             </div>
-            <div className="block h-fit bg-gradient-to-b from-dark-blue to-yellow">
+            <div className="block h-fit bg-gradient-to-b from-dark-blue to-yellow-500">
                 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 300" className='w-full'>
                     <path
                         fill="#1F1F39"
