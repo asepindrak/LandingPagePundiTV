@@ -10,6 +10,7 @@ import GetApp from './components/get_app';
 import Footer from './components/footer';
 import Feature from './components/feature';
 import Head from 'next/head';
+import Image from 'next/image';
 
 
 const Home: NextPage = () => {
