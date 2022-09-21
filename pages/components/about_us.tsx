@@ -18,7 +18,7 @@ export default function AboutUs() {
                         </div>
                     </div>
                     <div className="flex items-center h-full mt-5 md:hidden">
-                        <img src="/images/splash.jpeg" alt="" className="w-48 mx-auto shadow-2xl rounded-2xl " />
+                        <img src="/images/splash.jpeg" alt="" className="w-48 mx-auto rounded-2xl transition ease-in-out shadow-2xl hover:scale-105" />
                     </div>
                 </div>
             </div>

@@ -12,7 +12,7 @@ export default function GetApp() {
                     </p>
                     <div className="flex justify-center mt-5 space-x-5 md:mt-10">
                         <button className="transition ease-in-out bg-black shadow-2xl rounded-xl hover:scale-110 ">
-                            <img src="/images/playStore.png" alt="" className="md:h-12 lg:h-16" />
+                            <img src="/images/playstore.png" alt="" className="md:h-12 lg:h-16" />
                         </button>
                         <button className="transition ease-in-out bg-black shadow-2xl rounded-xl hover:scale-110 ">
                             <img src="/images/appStore.png" alt="" className="md:h-12 lg:h-16" />

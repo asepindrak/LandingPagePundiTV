@@ -3,7 +3,7 @@ import Image from "next/image";
 export default function Welcome() {
     return (
         <div className='bg-gradient-to-bl from-yellow-500 via-dark-blue to-black' id="home">
-            <div className='flex items-center justify-around w-full h-screen space-x-12 text-white'>
+            <div className='flex items-center justify-around w-full h-screen md:space-x-12 text-white'>
                 <div className="hidden lg:block">
                     <img src="/images/hero.png" alt="App Pundi TV" className='mx-auto mt-5 w-72' />
                     {/* <div className="relative h-screen w-72">
