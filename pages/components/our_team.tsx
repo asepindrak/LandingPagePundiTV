@@ -3,7 +3,7 @@ import Image from "next/image";
 export default function OurTeam() {
     return (
         <>
-            <div className="flex items-center lg:h-screen bg-dark-blue" id="ourTeam">
+            <div className="flex items-center md:h-screen bg-dark-blue" id="ourTeam">
                 <div className="w-full">
                     <p className="pt-16 text-3xl text-center text-white font-acme text-shadow">Our Team</p>
                     <div className="grid gap-5 px-10 mt-10 md:grid-cols-3">
