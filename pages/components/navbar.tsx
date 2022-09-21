@@ -6,7 +6,8 @@ export default function Navbar() {
         <nav className="fixed flex flex-wrap items-center justify-between w-full py-2 bg-black bg-opacity-75 md:bg-opacity-50 md:px-10">
             <div className="flex items-center justify-between w-full px-6 text-white container-fluid font-acme h-11">
                 <a href="" className='font-acme'>
-                    <Image src="/images/Logo Pundi.png" alt="Logo Pundi" width={50} height={50} />
+                    {/* <Image src="/images/Logo Pundi.png" alt="Logo Pundi" width={50} height={50} /> */}
+                    <img src="/images/logo_pundi2.png" alt="" className="h-12" />
                 </a>
                 <div className='hidden space-x-4 md:block'>
                     <a href="#home" className='transition hover:scale-125 hover:text-yellow'>Home</a>
