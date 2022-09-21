@@ -9,11 +9,11 @@ export default function OurTeam() {
                         <div className="group">
                             <div className="max-w-sm px-3 py-5 transition ease-in-out bg-white rounded-lg shadow-lg hover:bg-gradient-to-br from-yellow to-orange group-hover:-translate-y-3 group">
                                 <a href="#!" data-mdb-ripple="true" data-mdb-ripple-color="light">
-                                    <img className="w-40 h-40 mx-auto rounded-full shadow-xl md:w-48 md:h-48" src="https://mdbootstrap.com/img/new/standard/nature/182.jpg" alt="" />
+                                    <img className="w-40 h-40 mx-auto rounded-full shadow-xl md:w-48 md:h-48" src="/images/icon_punditv.png" alt="" />
                                 </a>
                                 <div className="mt-5 text-center font-acme ">
-                                    <p className="text-xl lg:text-3xl">Edi Mulyadi Rosdiman</p>
-                                    <p className="text-base font-medium text-gray-900 lg:text-xl ">Management</p>
+                                    <p className="text-xl lg:text-3xl">Yayan Sofyan</p>
+                                    <p className="text-base font-medium text-gray-900 lg:text-xl ">CEO</p>
                                 </div>
                             </div>
                         </div>
@@ -21,11 +21,11 @@ export default function OurTeam() {
                         <div className="group">
                             <div className="max-w-sm px-3 py-5 transition ease-in-out bg-white rounded-lg shadow-lg hover:bg-gradient-to-br from-yellow to-orange group-hover:-translate-y-3">
                                 <a href="#!" data-mdb-ripple="true" data-mdb-ripple-color="light">
-                                    <img className="w-40 h-40 mx-auto rounded-full shadow-xl md:w-48 md:h-48" src="https://mdbootstrap.com/img/new/standard/nature/182.jpg" alt="" />
+                                    <img className="w-40 h-40 mx-auto rounded-full shadow-xl md:w-48 md:h-48" src="/images/icon_punditv.png" alt="" />
                                 </a>
                                 <div className="mt-5 text-center font-acme">
-                                    <p className="text-xl lg:text-3xl">Edi Mulyadi Rosdiman</p>
-                                    <p className="text-base font-medium text-gray-900 lg:text-xl">Marketing</p>
+                                    <p className="text-xl lg:text-3xl">Gugum Gumilar</p>
+                                    <p className="text-base font-medium text-gray-900 lg:text-xl">CBO</p>
                                 </div>
                             </div>
                         </div>
@@ -33,11 +33,11 @@ export default function OurTeam() {
                         <div className="group">
                             <div className="max-w-sm px-3 py-5 transition ease-in-out bg-white rounded-lg shadow-lg hover:bg-gradient-to-br from-yellow to-orange group-hover:-translate-y-3">
                                 <a href="#!" data-mdb-ripple="true" data-mdb-ripple-color="light">
-                                    <img className="w-40 h-40 mx-auto rounded-full shadow-xl md:w-48 md:h-48" src="https://mdbootstrap.com/img/new/standard/nature/182.jpg" alt="" />
+                                    <img className="w-40 h-40 mx-auto rounded-full shadow-xl md:w-48 md:h-48" src="/images/icon_punditv.png" alt="" />
                                 </a>
                                 <div className="mt-5 text-center font-acme">
                                     <p className="text-xl lg:text-3xl">Edi Mulyadi Rosdiman</p>
-                                    <p className="text-base font-medium text-gray-900 lg:text-xl">Support IT</p>
+                                    <p className="text-base font-medium text-gray-900 lg:text-xl">CTO</p>
                                 </div>
                             </div>
                         </div>
