@@ -7,7 +7,7 @@ export default function OurTeam() {
                     <p className="pt-16 text-3xl text-center text-white font-acme text-shadow">Our Team</p>
                     <div className="grid gap-5 px-10 mt-10 md:grid-cols-3">
                         <div className="group">
-                            <div className="max-w-sm px-3 py-5 transition ease-in-out bg-white rounded-lg shadow-lg hover:bg-gradient-to-br from-yellow to-orange group-hover:-translate-y-3 group">
+                            <div className="max-w-sm px-3 py-5 transition ease-in-out bg-white rounded-lg shadow-lg hover:bg-gradient-to-br from-yellow1 to-orange group-hover:-translate-y-3 group">
                                 <a href="#!" data-mdb-ripple="true" data-mdb-ripple-color="light">
                                     <img className="w-40 h-40 mx-auto rounded-full shadow-xl md:w-48 md:h-48" src="/images/icon_punditv.png" alt="" />
                                 </a>
@@ -19,7 +19,7 @@ export default function OurTeam() {
                         </div>
 
                         <div className="group">
-                            <div className="max-w-sm px-3 py-5 transition ease-in-out bg-white rounded-lg shadow-lg hover:bg-gradient-to-br from-yellow to-orange group-hover:-translate-y-3">
+                            <div className="max-w-sm px-3 py-5 transition ease-in-out bg-white rounded-lg shadow-lg hover:bg-gradient-to-br from-yellow1 to-orange group-hover:-translate-y-3">
                                 <a href="#!" data-mdb-ripple="true" data-mdb-ripple-color="light">
                                     <img className="w-40 h-40 mx-auto rounded-full shadow-xl md:w-48 md:h-48" src="/images/icon_punditv.png" alt="" />
                                 </a>
@@ -31,7 +31,7 @@ export default function OurTeam() {
                         </div>
 
                         <div className="group">
-                            <div className="max-w-sm px-3 py-5 transition ease-in-out bg-white rounded-lg shadow-lg hover:bg-gradient-to-br from-yellow to-orange group-hover:-translate-y-3">
+                            <div className="max-w-sm px-3 py-5 transition ease-in-out bg-white rounded-lg shadow-lg hover:bg-gradient-to-br from-yellow1 to-orange group-hover:-translate-y-3">
                                 <a href="#!" data-mdb-ripple="true" data-mdb-ripple-color="light">
                                     <img className="w-40 h-40 mx-auto rounded-full shadow-xl md:w-48 md:h-48" src="/images/icon_punditv.png" alt="" />
                                 </a>

@@ -15,7 +15,7 @@ export default function Footer() {
                 </div>
                 <div className="mt-5 text-white md:1/2 lg:w-1/5 md:mt-0 ">
                     <p className="mb-3 text-xl font-acme md:text-center lg:text-start">Social Media</p>
-                    <a href="" className="flex space-x-3 transition ease-in-out lg:h-8 hover:translate-x-3 hover:text-yellow item-center">
+                    <a href="" className="flex space-x-3 transition ease-in-out lg:h-8 hover:translate-x-3 hover:text-yellow1 item-center">
                         <img src="/images/icon_ig.png" alt="" className="h-8 " />
                         <p>Pundi TV Official</p>
                     </a>
@@ -23,19 +23,19 @@ export default function Footer() {
                 <div className="mt-5 text-white md:w-1/5 md:mt-0 md:hidden lg:block">
                     <p className="mb-3 text-xl font-acme">Support</p>
                     <div className="group">
-                        <a href="" className="block transition ease-in-out hover:text-yellow group-hover:translate-x-3">Stige IT Solution</a>
+                        <a href="" className="block transition ease-in-out hover:text-yellow1 group-hover:translate-x-3">Stige IT Solution</a>
                     </div>
                     <div className="group">
-                        <a href="" className="block transition ease-in-out hover:text-yellow group-hover:translate-x-3">Nusapay</a>
+                        <a href="" className="block transition ease-in-out hover:text-yellow1 group-hover:translate-x-3">Nusapay</a>
                     </div>
                 </div>
                 <div className="mt-5 text-white md:w-1/5 md:mt-0 md:hidden lg:block">
                     <p className="mb-3 text-xl font-acme">Contact Us</p>
                     <div className="group">
-                        <a href="" className="block transition ease-in-out hover:text-yellow group-hover:translate-x-3">+6285-2222-8585</a>
+                        <a href="" className="block transition ease-in-out hover:text-yellow1 group-hover:translate-x-3">+6285-2222-8585</a>
                     </div>
                     <div className="group">
-                        <a href="" className="block transition ease-in-out hover:text-yellow group-hover:translate-x-3">admin@punditv.com</a>
+                        <a href="" className="block transition ease-in-out hover:text-yellow1 group-hover:translate-x-3">admin@punditv.com</a>
                     </div>
                 </div>
             </div>
@@ -44,19 +44,19 @@ export default function Footer() {
                     <div className="w-1/2 text-white ">
                         <p className="mb-3 text-xl font-acme">Support</p>
                         <div className="group">
-                            <a href="" className="block transition ease-in-out hover:text-yellow group-hover:translate-x-3">Stige IT Solution</a>
+                            <a href="" className="block transition ease-in-out hover:text-yellow1 group-hover:translate-x-3">Stige IT Solution</a>
                         </div>
                         <div className="group">
-                            <a href="" className="block transition ease-in-out hover:text-yellow group-hover:translate-x-3">Nusapay</a>
+                            <a href="" className="block transition ease-in-out hover:text-yellow1 group-hover:translate-x-3">Nusapay</a>
                         </div>
                     </div>
                     <div className="w-1/2 text-white ">
                         <p className="mb-3 text-xl font-acme">Contact Us</p>
                         <div className="group">
-                            <a href="" className="block transition ease-in-out hover:text-yellow group-hover:translate-x-3">+6285-2222-8585</a>
+                            <a href="" className="block transition ease-in-out hover:text-yellow1 group-hover:translate-x-3">+6285-2222-8585</a>
                         </div>
                         <div className="group">
-                            <a href="" className="block transition ease-in-out hover:text-yellow group-hover:translate-x-3">admin@punditv.com</a>
+                            <a href="" className="block transition ease-in-out hover:text-yellow1 group-hover:translate-x-3">admin@punditv.com</a>
                         </div>
                     </div>
                 </div>
