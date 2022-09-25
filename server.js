@@ -38,8 +38,8 @@ app.prepare().then(() => {
       res.statusCode = 500;
       res.end("internal server error");
     }
-  }).listen(3000, (err) => {
+  }).listen(4000, (err) => {
     if (err) throw err;
-    console.log(`> Ready on https://localhost:3000`);
+    console.log(`> Ready on https://localhost:4000`);
   });
 });
