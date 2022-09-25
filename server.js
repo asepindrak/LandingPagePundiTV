@@ -12,12 +12,12 @@ const httpsOptions = {
   key: fs.readFileSync(
     dev
       ? "./certificates/localhost.key"
-      : "./etc/letsencrypt/live/punditv.com/privkey.pem"
+      : "/etc/letsencrypt/live/punditv.com/privkey.pem"
   ),
   cert: fs.readFileSync(
     dev
       ? "./certificates/localhost.crt"
-      : "./etc/letsencrypt/live/punditv.com/fullchain.pem"
+      : "/etc/letsencrypt/live/punditv.com/fullchain.pem"
   ),
 };
 
